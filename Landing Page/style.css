@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&#39');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+a:hover{
+    color: rgb(120, 158, 228);
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.cabecalho a{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+
+ .header img{
+    display: flex;
+    margin-left: 200px ;
+ }
+
+
+ .Texto{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 240px;
+    margin-bottom: 30px;
+ }
+
+ .Titulo{
+    flex-direction: column;
+ }
+
+ .Titulo h2{
+    font-weight: 200;
+    color: white;
+    font-size: 50px;
+ }
+
+ .Botao{
+    display: flex;
+    margin-top: 45px;
+    flex-direction: row;
+    text-align: center;
+    gap: 35px;
+ }
+
+ .Botao a{
+    display: flex;
+    text-decoration: none;
+    padding: 10 20px;
+    width: 150px;
+    height: 58px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+   border: 2px solid ;
+   border-color: white;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .Botao a:hover{
+    color: rgb(45, 46, 48);
+ }
+
+ .image{
+    display: flex;
+}
+
+ .image img{
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    width: 1700px;
+    margin-top: 80px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 40px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .grid-a {
+    font-size: 1.1em;
+    opacity: 0.85;
+    color: rgb(83, 83, 83);
+  }
+
+  .Botao1{
+    display: flex;
+    margin-top: 45px;
+    flex-direction: row;
+    text-align: center;
+    gap: 35px;
+    margin-left: 800px;
+  }
+
+  .Botao1 a{
+    display: flex;
+    text-decoration: none;
+    padding: 10 20px;
+    width: 150px;
+    height: 58px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+   border: 2px solid ;
+   border-color: white;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+ 
+ }
+
+ .Botao1 a:hover{
+    color: rgb(45, 46, 48);
+ }
+
+
+ .image1{
+    display: flex;
+    margin-top: 100px;
+    width: 1700px;
+    align-items: center;
+    margin-left: 200px;
+ }
+
+ .final{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+    margin-right: 170px;
+ }
+
+.Final1{
+    flex-direction: row;
+    margin-left: 100px;
+   
+}
+
+.Final1 h2{
+    font-weight: 200;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.Final1 p{
+    color: rgb(85, 85, 85);
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.botao3{
+    display: flex;
+    margin-top: 45px;
+    flex-direction: row;
+    text-align: center;
+    gap: 35px;
+    margin-left: 800px;
+}
+
+.botao3 .P{
+    display: flex;
+    text-decoration: none;
+    padding: 10 20px;
+    width: 150px;
+    height: 58px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+   border: 2px solid ;
+   border-color: white;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+
+}
+
+
+.botao3 a{
+    display: flex;
+    text-decoration: none;
+    padding: 10 20px;
+    width: 150px;
+    height: 58px;
+    color: white;
+    border-radius: 5px;
+    background-color: #3549CB;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+
+.botao3 a:hover{
+    color: rgb(59, 59, 59);
+}
+
+.botao3 .P:hover{
+    color: rgb(45, 46, 48);
+}
+
